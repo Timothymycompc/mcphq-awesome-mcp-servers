@@ -3516,6 +3516,19 @@
     }
   },
   {
+    "name": "Solana Pulse",
+    "url": "https://github.com/Timothymycompc/solana-pulse-ai-agent-gateway",
+    "description": "Read-only pre-sign checks for Solana agents: dry-runs a transaction on mainnet, confirms it matches the requested transfer or swap, and rates token risk; 25 free calls per tool a day, then x402 in USDC.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "Solana Pulse",
+    "tags": ["solana", "crypto", "security", "x402"],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://solana-pulse-gateway-1021990235790.us-central1.run.app/mcp"
+    }
+  },
+  {
     "name": "Zaptu",
     "url": "https://github.com/TommyTap11/zaptu",
     "description": "Sends a person's consented US home-service contact request (service, ZIP, name, phone) to independent local providers; for plumbing it returns a number the person dials, and Zaptu does not perform the work.",
